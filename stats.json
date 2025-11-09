@@ -1,0 +1,1978 @@
+{
+  "icews05-15": {
+    "aggregate": {
+      "triples": 461329,
+      "unique_subjects": 8919,
+      "unique_objects": 8617,
+      "unique_relations": 251,
+      "top_entities": [
+        [
+          "China",
+          52890
+        ],
+        [
+          "Iran",
+          31508
+        ],
+        [
+          "Japan",
+          30440
+        ],
+        [
+          "South Korea",
+          20900
+        ],
+        [
+          "Barack Obama",
+          18265
+        ]
+      ],
+      "top_subjects": [
+        [
+          "China",
+          23138
+        ],
+        [
+          "Japan",
+          13358
+        ],
+        [
+          "Police (Australia)",
+          11455
+        ],
+        [
+          "Barack Obama",
+          10703
+        ],
+        [
+          "Iran",
+          10291
+        ]
+      ],
+      "top_objects": [
+        [
+          "China",
+          29752
+        ],
+        [
+          "Iran",
+          21217
+        ],
+        [
+          "Japan",
+          17082
+        ],
+        [
+          "Citizen (Australia)",
+          12474
+        ],
+        [
+          "South Korea",
+          11474
+        ]
+      ],
+      "top_relations": [
+        [
+          "Make statement",
+          76184
+        ],
+        [
+          "Consult",
+          49306
+        ],
+        [
+          "Express intent to meet or negotiate",
+          30576
+        ],
+        [
+          "Make an appeal or request",
+          26661
+        ],
+        [
+          "Make a visit",
+          24422
+        ]
+      ],
+      "top_years": [
+        [
+          2006,
+          47142
+        ],
+        [
+          2007,
+          45937
+        ],
+        [
+          2015,
+          45683
+        ],
+        [
+          2008,
+          45009
+        ],
+        [
+          2009,
+          44768
+        ]
+      ],
+      "temporal_markers": [],
+      "temporal_records": 0,
+      "min_date": "2005-01-01",
+      "max_date": "2015-12-31",
+      "min_year": null,
+      "max_year": null
+    },
+    "files": {
+      "icews_2005-2015_test.txt": {
+        "triples": 46092,
+        "unique_subjects": 3894,
+        "unique_objects": 3645,
+        "unique_relations": 207,
+        "top_entities": [
+          [
+            "China",
+            5292
+          ],
+          [
+            "Iran",
+            3094
+          ],
+          [
+            "Japan",
+            3015
+          ],
+          [
+            "South Korea",
+            2085
+          ],
+          [
+            "Barack Obama",
+            1839
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            2307
+          ],
+          [
+            "Japan",
+            1348
+          ],
+          [
+            "Police (Australia)",
+            1158
+          ],
+          [
+            "Barack Obama",
+            1061
+          ],
+          [
+            "Iran",
+            949
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            2985
+          ],
+          [
+            "Iran",
+            2145
+          ],
+          [
+            "Japan",
+            1667
+          ],
+          [
+            "Citizen (Australia)",
+            1271
+          ],
+          [
+            "South Korea",
+            1138
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            7736
+          ],
+          [
+            "Consult",
+            4925
+          ],
+          [
+            "Express intent to meet or negotiate",
+            3071
+          ],
+          [
+            "Make an appeal or request",
+            2601
+          ],
+          [
+            "Host a visit",
+            2497
+          ]
+        ],
+        "top_years": [
+          [
+            2015,
+            4697
+          ],
+          [
+            2006,
+            4692
+          ],
+          [
+            2007,
+            4580
+          ],
+          [
+            2008,
+            4522
+          ],
+          [
+            2009,
+            4490
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2005-01-01",
+        "max_date": "2015-12-31",
+        "min_year": null,
+        "max_year": null
+      },
+      "icews_2005-2015_train.txt": {
+        "triples": 368962,
+        "unique_subjects": 8435,
+        "unique_objects": 8123,
+        "unique_relations": 251,
+        "top_entities": [
+          [
+            "China",
+            42315
+          ],
+          [
+            "Iran",
+            25326
+          ],
+          [
+            "Japan",
+            24469
+          ],
+          [
+            "South Korea",
+            16778
+          ],
+          [
+            "Barack Obama",
+            14652
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            18506
+          ],
+          [
+            "Japan",
+            10716
+          ],
+          [
+            "Police (Australia)",
+            9157
+          ],
+          [
+            "Barack Obama",
+            8608
+          ],
+          [
+            "Iran",
+            8334
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            23809
+          ],
+          [
+            "Iran",
+            16992
+          ],
+          [
+            "Japan",
+            13753
+          ],
+          [
+            "Citizen (Australia)",
+            9955
+          ],
+          [
+            "South Korea",
+            9232
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            60754
+          ],
+          [
+            "Consult",
+            39543
+          ],
+          [
+            "Express intent to meet or negotiate",
+            24450
+          ],
+          [
+            "Make an appeal or request",
+            21313
+          ],
+          [
+            "Make a visit",
+            19534
+          ]
+        ],
+        "top_years": [
+          [
+            2006,
+            37702
+          ],
+          [
+            2007,
+            36803
+          ],
+          [
+            2015,
+            36386
+          ],
+          [
+            2008,
+            35997
+          ],
+          [
+            2009,
+            35907
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2005-01-01",
+        "max_date": "2015-12-31",
+        "min_year": null,
+        "max_year": null
+      },
+      "icews_2005-2015_valid.txt": {
+        "triples": 46275,
+        "unique_subjects": 4019,
+        "unique_objects": 3660,
+        "unique_relations": 211,
+        "top_entities": [
+          [
+            "China",
+            5283
+          ],
+          [
+            "Iran",
+            3088
+          ],
+          [
+            "Japan",
+            2956
+          ],
+          [
+            "South Korea",
+            2037
+          ],
+          [
+            "Barack Obama",
+            1774
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            2325
+          ],
+          [
+            "Japan",
+            1294
+          ],
+          [
+            "Police (Australia)",
+            1140
+          ],
+          [
+            "Barack Obama",
+            1034
+          ],
+          [
+            "Iran",
+            1008
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            2958
+          ],
+          [
+            "Iran",
+            2080
+          ],
+          [
+            "Japan",
+            1662
+          ],
+          [
+            "Citizen (Australia)",
+            1248
+          ],
+          [
+            "South Korea",
+            1104
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            7694
+          ],
+          [
+            "Consult",
+            4838
+          ],
+          [
+            "Express intent to meet or negotiate",
+            3055
+          ],
+          [
+            "Make an appeal or request",
+            2747
+          ],
+          [
+            "Host a visit",
+            2426
+          ]
+        ],
+        "top_years": [
+          [
+            2006,
+            4748
+          ],
+          [
+            2015,
+            4600
+          ],
+          [
+            2007,
+            4554
+          ],
+          [
+            2008,
+            4490
+          ],
+          [
+            2005,
+            4455
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2005-01-01",
+        "max_date": "2015-12-31",
+        "min_year": null,
+        "max_year": null
+      }
+    }
+  },
+  "icews14": {
+    "aggregate": {
+      "triples": 90730,
+      "unique_subjects": 5856,
+      "unique_objects": 5536,
+      "unique_relations": 230,
+      "top_entities": [
+        [
+          "China",
+          6083
+        ],
+        [
+          "Iran",
+          4926
+        ],
+        [
+          "Citizen (Nigeria)",
+          3552
+        ],
+        [
+          "Citizen (India)",
+          3089
+        ],
+        [
+          "Barack Obama",
+          3064
+        ]
+      ],
+      "top_subjects": [
+        [
+          "China",
+          2619
+        ],
+        [
+          "Barack Obama",
+          1920
+        ],
+        [
+          "John Kerry",
+          1736
+        ],
+        [
+          "Iran",
+          1651
+        ],
+        [
+          "Citizen (Nigeria)",
+          1335
+        ]
+      ],
+      "top_objects": [
+        [
+          "China",
+          3464
+        ],
+        [
+          "Iran",
+          3275
+        ],
+        [
+          "Citizen (Nigeria)",
+          2217
+        ],
+        [
+          "Citizen (India)",
+          1989
+        ],
+        [
+          "Iraq",
+          1794
+        ]
+      ],
+      "top_relations": [
+        [
+          "Make statement",
+          15578
+        ],
+        [
+          "Consult",
+          10067
+        ],
+        [
+          "Make an appeal or request",
+          6266
+        ],
+        [
+          "Express intent to meet or negotiate",
+          5087
+        ],
+        [
+          "Make a visit",
+          4267
+        ]
+      ],
+      "top_years": [
+        [
+          2014,
+          90730
+        ]
+      ],
+      "temporal_markers": [],
+      "temporal_records": 0,
+      "min_date": "2014-01-01",
+      "max_date": "2014-12-31",
+      "min_year": null,
+      "max_year": null
+    },
+    "files": {
+      "icews_2014_test.txt": {
+        "triples": 8963,
+        "unique_subjects": 2001,
+        "unique_objects": 1818,
+        "unique_relations": 161,
+        "top_entities": [
+          [
+            "China",
+            609
+          ],
+          [
+            "Iran",
+            516
+          ],
+          [
+            "Citizen (Nigeria)",
+            342
+          ],
+          [
+            "Barack Obama",
+            309
+          ],
+          [
+            "Citizen (India)",
+            295
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            246
+          ],
+          [
+            "Iran",
+            186
+          ],
+          [
+            "Barack Obama",
+            181
+          ],
+          [
+            "John Kerry",
+            168
+          ],
+          [
+            "Citizen (Nigeria)",
+            127
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            363
+          ],
+          [
+            "Iran",
+            330
+          ],
+          [
+            "Iraq",
+            217
+          ],
+          [
+            "Citizen (Nigeria)",
+            215
+          ],
+          [
+            "Citizen (India)",
+            185
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            1500
+          ],
+          [
+            "Consult",
+            977
+          ],
+          [
+            "Make an appeal or request",
+            629
+          ],
+          [
+            "Express intent to meet or negotiate",
+            495
+          ],
+          [
+            "Make a visit",
+            432
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            8963
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2014-01-01",
+        "max_date": "2014-12-31",
+        "min_year": null,
+        "max_year": null
+      },
+      "icews_2014_train.txt": {
+        "triples": 72826,
+        "unique_subjects": 5499,
+        "unique_objects": 5183,
+        "unique_relations": 230,
+        "top_entities": [
+          [
+            "China",
+            4866
+          ],
+          [
+            "Iran",
+            3936
+          ],
+          [
+            "Citizen (Nigeria)",
+            2838
+          ],
+          [
+            "Citizen (India)",
+            2487
+          ],
+          [
+            "Barack Obama",
+            2446
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            2115
+          ],
+          [
+            "Barack Obama",
+            1541
+          ],
+          [
+            "John Kerry",
+            1389
+          ],
+          [
+            "Iran",
+            1306
+          ],
+          [
+            "Citizen (Nigeria)",
+            1064
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            2751
+          ],
+          [
+            "Iran",
+            2630
+          ],
+          [
+            "Citizen (Nigeria)",
+            1774
+          ],
+          [
+            "Citizen (India)",
+            1610
+          ],
+          [
+            "Japan",
+            1404
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            12622
+          ],
+          [
+            "Consult",
+            8052
+          ],
+          [
+            "Make an appeal or request",
+            5019
+          ],
+          [
+            "Express intent to meet or negotiate",
+            4077
+          ],
+          [
+            "Host a visit",
+            3424
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            72826
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2014-01-01",
+        "max_date": "2014-12-31",
+        "min_year": null,
+        "max_year": null
+      },
+      "icews_2014_valid.txt": {
+        "triples": 8941,
+        "unique_subjects": 2072,
+        "unique_objects": 1880,
+        "unique_relations": 159,
+        "top_entities": [
+          [
+            "China",
+            608
+          ],
+          [
+            "Iran",
+            474
+          ],
+          [
+            "Citizen (Nigeria)",
+            372
+          ],
+          [
+            "Japan",
+            316
+          ],
+          [
+            "Barack Obama",
+            309
+          ]
+        ],
+        "top_subjects": [
+          [
+            "China",
+            258
+          ],
+          [
+            "Barack Obama",
+            198
+          ],
+          [
+            "John Kerry",
+            179
+          ],
+          [
+            "Iran",
+            159
+          ],
+          [
+            "Japan",
+            144
+          ]
+        ],
+        "top_objects": [
+          [
+            "China",
+            350
+          ],
+          [
+            "Iran",
+            315
+          ],
+          [
+            "Citizen (Nigeria)",
+            228
+          ],
+          [
+            "Citizen (India)",
+            194
+          ],
+          [
+            "Iraq",
+            180
+          ]
+        ],
+        "top_relations": [
+          [
+            "Make statement",
+            1456
+          ],
+          [
+            "Consult",
+            1038
+          ],
+          [
+            "Make an appeal or request",
+            618
+          ],
+          [
+            "Express intent to meet or negotiate",
+            515
+          ],
+          [
+            "Make a visit",
+            441
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            8941
+          ]
+        ],
+        "temporal_markers": [],
+        "temporal_records": 0,
+        "min_date": "2014-01-01",
+        "max_date": "2014-12-31",
+        "min_year": null,
+        "max_year": null
+      }
+    }
+  },
+  "wikidata": {
+    "aggregate": {
+      "triples": 150079,
+      "unique_subjects": 6225,
+      "unique_objects": 5173,
+      "unique_relations": 96,
+      "top_entities": [
+        [
+          "Q38104",
+          586
+        ],
+        [
+          "Q80061",
+          452
+        ],
+        [
+          "Q44585",
+          418
+        ],
+        [
+          "Q37922",
+          370
+        ],
+        [
+          "Q1145764",
+          358
+        ]
+      ],
+      "top_subjects": [
+        [
+          "Q1145764",
+          358
+        ],
+        [
+          "Q23628",
+          338
+        ],
+        [
+          "Q886",
+          260
+        ],
+        [
+          "Q217198",
+          227
+        ],
+        [
+          "Q585320",
+          225
+        ]
+      ],
+      "top_objects": [
+        [
+          "Q38104",
+          586
+        ],
+        [
+          "Q80061",
+          452
+        ],
+        [
+          "Q44585",
+          418
+        ],
+        [
+          "Q37922",
+          368
+        ],
+        [
+          "2550",
+          350
+        ]
+      ],
+      "top_relations": [
+        [
+          "P54",
+          45665
+        ],
+        [
+          "P1082",
+          42490
+        ],
+        [
+          "P1087",
+          40728
+        ],
+        [
+          "P1411",
+          6900
+        ],
+        [
+          "P166",
+          5594
+        ]
+      ],
+      "top_years": [
+        [
+          2014,
+          8662
+        ],
+        [
+          2013,
+          8179
+        ],
+        [
+          2016,
+          7652
+        ],
+        [
+          2015,
+          7431
+        ],
+        [
+          2012,
+          7064
+        ]
+      ],
+      "temporal_markers": [
+        [
+          "occurSince",
+          76137
+        ],
+        [
+          "occurUntil",
+          73942
+        ]
+      ],
+      "temporal_records": 150079,
+      "min_date": null,
+      "max_date": null,
+      "min_year": 25,
+      "max_year": 2020
+    },
+    "files": {
+      "wiki_test.txt": {
+        "triples": 14283,
+        "unique_subjects": 4441,
+        "unique_objects": 3856,
+        "unique_relations": 55,
+        "top_entities": [
+          [
+            "Q38104",
+            54
+          ],
+          [
+            "Q44585",
+            47
+          ],
+          [
+            "Q80061",
+            42
+          ],
+          [
+            "Q1145764",
+            42
+          ],
+          [
+            "2345",
+            37
+          ]
+        ],
+        "top_subjects": [
+          [
+            "Q1145764",
+            42
+          ],
+          [
+            "Q23628",
+            36
+          ],
+          [
+            "Q312918",
+            33
+          ],
+          [
+            "Q715401",
+            31
+          ],
+          [
+            "Q536934",
+            30
+          ]
+        ],
+        "top_objects": [
+          [
+            "Q38104",
+            54
+          ],
+          [
+            "Q44585",
+            47
+          ],
+          [
+            "Q80061",
+            42
+          ],
+          [
+            "2345",
+            37
+          ],
+          [
+            "2550",
+            35
+          ]
+        ],
+        "top_relations": [
+          [
+            "P54",
+            4177
+          ],
+          [
+            "P1082",
+            4140
+          ],
+          [
+            "P1087",
+            4024
+          ],
+          [
+            "P1411",
+            608
+          ],
+          [
+            "P166",
+            538
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            798
+          ],
+          [
+            2016,
+            760
+          ],
+          [
+            2013,
+            751
+          ],
+          [
+            2015,
+            710
+          ],
+          [
+            2012,
+            704
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occurSince",
+            7224
+          ],
+          [
+            "occurUntil",
+            7059
+          ]
+        ],
+        "temporal_records": 14283,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 508,
+        "max_year": 2017
+      },
+      "wiki_train.txt": {
+        "triples": 121422,
+        "unique_subjects": 6210,
+        "unique_objects": 5157,
+        "unique_relations": 95,
+        "top_entities": [
+          [
+            "Q38104",
+            456
+          ],
+          [
+            "Q80061",
+            366
+          ],
+          [
+            "Q44585",
+            334
+          ],
+          [
+            "Q37922",
+            304
+          ],
+          [
+            "Q1145764",
+            288
+          ]
+        ],
+        "top_subjects": [
+          [
+            "Q1145764",
+            288
+          ],
+          [
+            "Q23628",
+            259
+          ],
+          [
+            "Q886",
+            211
+          ],
+          [
+            "Q506493",
+            194
+          ],
+          [
+            "Q433358",
+            191
+          ]
+        ],
+        "top_objects": [
+          [
+            "Q38104",
+            456
+          ],
+          [
+            "Q80061",
+            366
+          ],
+          [
+            "Q44585",
+            334
+          ],
+          [
+            "Q37922",
+            302
+          ],
+          [
+            "2550",
+            279
+          ]
+        ],
+        "top_relations": [
+          [
+            "P54",
+            37212
+          ],
+          [
+            "P1082",
+            34316
+          ],
+          [
+            "P1087",
+            32690
+          ],
+          [
+            "P1411",
+            5606
+          ],
+          [
+            "P166",
+            4514
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            7049
+          ],
+          [
+            2013,
+            6635
+          ],
+          [
+            2016,
+            6128
+          ],
+          [
+            2015,
+            6043
+          ],
+          [
+            2012,
+            5710
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occurSince",
+            61623
+          ],
+          [
+            "occurUntil",
+            59799
+          ]
+        ],
+        "temporal_records": 121422,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 25,
+        "max_year": 2019
+      },
+      "wiki_valid.txt": {
+        "triples": 14374,
+        "unique_subjects": 4467,
+        "unique_objects": 3893,
+        "unique_relations": 54,
+        "top_entities": [
+          [
+            "Q38104",
+            76
+          ],
+          [
+            "Q80061",
+            44
+          ],
+          [
+            "Q23628",
+            43
+          ],
+          [
+            "Q37922",
+            40
+          ],
+          [
+            "Q44585",
+            37
+          ]
+        ],
+        "top_subjects": [
+          [
+            "Q23628",
+            43
+          ],
+          [
+            "Q515979",
+            36
+          ],
+          [
+            "Q1334037",
+            36
+          ],
+          [
+            "Q1079195",
+            34
+          ],
+          [
+            "Q616042",
+            32
+          ]
+        ],
+        "top_objects": [
+          [
+            "Q38104",
+            76
+          ],
+          [
+            "Q80061",
+            44
+          ],
+          [
+            "Q37922",
+            40
+          ],
+          [
+            "Q44585",
+            37
+          ],
+          [
+            "2550",
+            36
+          ]
+        ],
+        "top_relations": [
+          [
+            "P54",
+            4276
+          ],
+          [
+            "P1082",
+            4034
+          ],
+          [
+            "P1087",
+            4014
+          ],
+          [
+            "P1411",
+            686
+          ],
+          [
+            "P166",
+            542
+          ]
+        ],
+        "top_years": [
+          [
+            2014,
+            815
+          ],
+          [
+            2013,
+            793
+          ],
+          [
+            2016,
+            764
+          ],
+          [
+            2015,
+            678
+          ],
+          [
+            2012,
+            650
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occurSince",
+            7290
+          ],
+          [
+            "occurUntil",
+            7084
+          ]
+        ],
+        "temporal_records": 14374,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 814,
+        "max_year": 2020
+      }
+    }
+  },
+  "yago15k": {
+    "aggregate": {
+      "triples": 138056,
+      "unique_subjects": 14757,
+      "unique_objects": 6041,
+      "unique_relations": 32,
+      "top_entities": [
+        [
+          "<United_States>",
+          6611
+        ],
+        [
+          "<England>",
+          4260
+        ],
+        [
+          "<United_Kingdom>",
+          1559
+        ],
+        [
+          "<Scotland>",
+          1258
+        ],
+        [
+          "<Germany>",
+          980
+        ]
+      ],
+      "top_subjects": [
+        [
+          "<2017_Romanian_protests>",
+          81
+        ],
+        [
+          "<Elizabeth_II>",
+          79
+        ],
+        [
+          "<United_States>",
+          64
+        ],
+        [
+          "<Ghana>",
+          57
+        ],
+        [
+          "<John_Williams>",
+          56
+        ]
+      ],
+      "top_objects": [
+        [
+          "<United_States>",
+          6547
+        ],
+        [
+          "<England>",
+          4258
+        ],
+        [
+          "<United_Kingdom>",
+          1514
+        ],
+        [
+          "<Scotland>",
+          1252
+        ],
+        [
+          "<Germany>",
+          950
+        ]
+      ],
+      "top_relations": [
+        [
+          "<playsFor>",
+          45153
+        ],
+        [
+          "<isAffiliatedTo>",
+          32199
+        ],
+        [
+          "<isCitizenOf>",
+          18497
+        ],
+        [
+          "<isLocatedIn>",
+          12770
+        ],
+        [
+          "<actedIn>",
+          6487
+        ]
+      ],
+      "top_years": [
+        [
+          2007,
+          1489
+        ],
+        [
+          2008,
+          1435
+        ],
+        [
+          2006,
+          1430
+        ],
+        [
+          2005,
+          1421
+        ],
+        [
+          2004,
+          1407
+        ]
+      ],
+      "temporal_markers": [
+        [
+          "occursSince",
+          21400
+        ],
+        [
+          "occursUntil",
+          15301
+        ]
+      ],
+      "temporal_records": 36701,
+      "min_date": null,
+      "max_date": null,
+      "min_year": 1513,
+      "max_year": 2017
+    },
+    "files": {
+      "yago15k_test.txt": {
+        "triples": 13800,
+        "unique_subjects": 6772,
+        "unique_objects": 2413,
+        "unique_relations": 30,
+        "top_entities": [
+          [
+            "<United_States>",
+            680
+          ],
+          [
+            "<England>",
+            435
+          ],
+          [
+            "<United_Kingdom>",
+            134
+          ],
+          [
+            "<Scotland>",
+            132
+          ],
+          [
+            "<Birmingham_City_F.C.>",
+            111
+          ]
+        ],
+        "top_subjects": [
+          [
+            "<Jamie_Forrester>",
+            10
+          ],
+          [
+            "<Matthew_Upson>",
+            10
+          ],
+          [
+            "<Harry_Lovatt>",
+            10
+          ],
+          [
+            "<February_1999_Kurdish_protests>",
+            9
+          ],
+          [
+            "<Giles_Coke>",
+            9
+          ]
+        ],
+        "top_objects": [
+          [
+            "<United_States>",
+            676
+          ],
+          [
+            "<England>",
+            435
+          ],
+          [
+            "<Scotland>",
+            132
+          ],
+          [
+            "<United_Kingdom>",
+            130
+          ],
+          [
+            "<Birmingham_City_F.C.>",
+            111
+          ]
+        ],
+        "top_relations": [
+          [
+            "<playsFor>",
+            4511
+          ],
+          [
+            "<isAffiliatedTo>",
+            3221
+          ],
+          [
+            "<isCitizenOf>",
+            1850
+          ],
+          [
+            "<isLocatedIn>",
+            1277
+          ],
+          [
+            "<actedIn>",
+            649
+          ]
+        ],
+        "top_years": [
+          [
+            2011,
+            153
+          ],
+          [
+            2005,
+            148
+          ],
+          [
+            2008,
+            147
+          ],
+          [
+            2007,
+            144
+          ],
+          [
+            2010,
+            140
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occursSince",
+            2157
+          ],
+          [
+            "occursUntil",
+            1528
+          ]
+        ],
+        "temporal_records": 3685,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 1630,
+        "max_year": 2017
+      },
+      "yago15k_train.txt": {
+        "triples": 110441,
+        "unique_subjects": 14301,
+        "unique_objects": 5726,
+        "unique_relations": 32,
+        "top_entities": [
+          [
+            "<United_States>",
+            5273
+          ],
+          [
+            "<England>",
+            3379
+          ],
+          [
+            "<United_Kingdom>",
+            1270
+          ],
+          [
+            "<Scotland>",
+            1004
+          ],
+          [
+            "<Germany>",
+            801
+          ]
+        ],
+        "top_subjects": [
+          [
+            "<2017_Romanian_protests>",
+            69
+          ],
+          [
+            "<Elizabeth_II>",
+            68
+          ],
+          [
+            "<United_States>",
+            56
+          ],
+          [
+            "<Danny_Elfman>",
+            48
+          ],
+          [
+            "<John_Williams>",
+            46
+          ]
+        ],
+        "top_objects": [
+          [
+            "<United_States>",
+            5217
+          ],
+          [
+            "<England>",
+            3377
+          ],
+          [
+            "<United_Kingdom>",
+            1234
+          ],
+          [
+            "<Scotland>",
+            998
+          ],
+          [
+            "<Germany>",
+            778
+          ]
+        ],
+        "top_relations": [
+          [
+            "<playsFor>",
+            36131
+          ],
+          [
+            "<isAffiliatedTo>",
+            25758
+          ],
+          [
+            "<isCitizenOf>",
+            14797
+          ],
+          [
+            "<isLocatedIn>",
+            10216
+          ],
+          [
+            "<actedIn>",
+            5189
+          ]
+        ],
+        "top_years": [
+          [
+            2007,
+            1223
+          ],
+          [
+            2006,
+            1154
+          ],
+          [
+            2008,
+            1146
+          ],
+          [
+            2005,
+            1143
+          ],
+          [
+            2004,
+            1133
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occursSince",
+            17129
+          ],
+          [
+            "occursUntil",
+            12252
+          ]
+        ],
+        "temporal_records": 29381,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 1513,
+        "max_year": 2017
+      },
+      "yago15k_valid.txt": {
+        "triples": 13815,
+        "unique_subjects": 6715,
+        "unique_objects": 2418,
+        "unique_relations": 30,
+        "top_entities": [
+          [
+            "<United_States>",
+            658
+          ],
+          [
+            "<England>",
+            446
+          ],
+          [
+            "<United_Kingdom>",
+            155
+          ],
+          [
+            "<Scotland>",
+            122
+          ],
+          [
+            "<Crystal_Palace_F.C.>",
+            92
+          ]
+        ],
+        "top_subjects": [
+          [
+            "<Steve_Claridge>",
+            11
+          ],
+          [
+            "<Keith_Rowland>",
+            11
+          ],
+          [
+            "<Ghana>",
+            11
+          ],
+          [
+            "<Hermann_Hrei\u00f0arsson>",
+            10
+          ],
+          [
+            "<Jermaine_Easter>",
+            10
+          ]
+        ],
+        "top_objects": [
+          [
+            "<United_States>",
+            654
+          ],
+          [
+            "<England>",
+            446
+          ],
+          [
+            "<United_Kingdom>",
+            150
+          ],
+          [
+            "<Scotland>",
+            122
+          ],
+          [
+            "<Crystal_Palace_F.C.>",
+            92
+          ]
+        ],
+        "top_relations": [
+          [
+            "<playsFor>",
+            4511
+          ],
+          [
+            "<isAffiliatedTo>",
+            3220
+          ],
+          [
+            "<isCitizenOf>",
+            1850
+          ],
+          [
+            "<isLocatedIn>",
+            1277
+          ],
+          [
+            "<actedIn>",
+            649
+          ]
+        ],
+        "top_years": [
+          [
+            2004,
+            144
+          ],
+          [
+            2008,
+            142
+          ],
+          [
+            2006,
+            138
+          ],
+          [
+            2009,
+            134
+          ],
+          [
+            2005,
+            130
+          ]
+        ],
+        "temporal_markers": [
+          [
+            "occursSince",
+            2114
+          ],
+          [
+            "occursUntil",
+            1521
+          ]
+        ],
+        "temporal_records": 3635,
+        "min_date": null,
+        "max_date": null,
+        "min_year": 1625,
+        "max_year": 2017
+      }
+    }
+  }
+}

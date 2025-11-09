@@ -18,6 +18,21 @@ from pathlib import Path
 from typing import Dict, Optional
 
 
+def resolve_delimiter(delimiter: str) -> str:
+    if len(delimiter) == 1:
+        return delimiter
+    try:
+        decoded = delimiter.encode("utf-8").decode("unicode_escape")
+    except UnicodeDecodeError:
+        decoded = delimiter
+    if len(decoded) != 1:
+        raise SystemExit(
+            f'Delimiter must resolve to a single character, got "{delimiter}". '
+            "Use --delimiter '\\t' for tabs."
+        )
+    return decoded
+
+
 def load_mapping(mapping_path: Path, delimiter: str) -> Dict[str, str]:
     mapping: Dict[str, str] = {}
     with mapping_path.open("r", encoding="utf-8") as fh:
@@ -89,11 +104,13 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    mapping = load_mapping(args.mapping, args.delimiter)
+    delimiter = resolve_delimiter(args.delimiter)
+
+    mapping = load_mapping(args.mapping, delimiter)
     if not mapping:
         raise SystemExit(f"No entries found in mapping file {args.mapping}.")
 
-    attach_labels(args.dataset, mapping, args.delimiter, args.output, args.missing_value)
+    attach_labels(args.dataset, mapping, delimiter, args.output, args.missing_value)
 
 
 if __name__ == "__main__":
